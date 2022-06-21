@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: black;
+}
+.container{
+    position: relative;
+    font-family: monospace;
+    color: rgb(25, 219, 193);
+    text-shadow: 40px 10px 20px rgb(228, 12, 228),0 0 20px rgb(11, 172, 221), 40px 0 0 rgba(201, 10, 169, 0.815);
+    filter: contrast(15);
+    font-size: 6em;
+    margin-top: 200px;
+    margin-left: 40vh;
+}
+.word{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    animation: switch 3s infinite ease-in-out;
+    min-width: 100%;
+    margin: auto;
+}
+.word:nth-child(1){
+    animation-delay: -4s;
+}
+.word:nth-child(2){
+    animation-delay: -3s;
+}
+.word:nth-child(3){
+    animation-delay: -2s;
+}
+@keyframes switch {
+    0%,
+    100%{
+        filter: blur(0px);
+        opacity: 1;
+    }
+    50%,
+    80%{
+        filter: blur(80px);
+        opacity: 0;
+    }
+}
