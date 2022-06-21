@@ -11,9 +11,9 @@
     color: rgb(25, 219, 193);
     text-shadow: 40px 10px 20px rgb(228, 12, 228),0 0 20px rgb(11, 172, 221), 40px 0 0 rgba(201, 10, 169, 0.815);
     filter: contrast(15);
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 220px;
-    margin-left: 30vh;
+    margin-left: 20vh;
 }
 .word{
     position: absolute;
